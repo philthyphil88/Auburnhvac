@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+header .navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+header .navbar ul li {
+    margin: 0 20px;
+}
+
+header .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #e30613; /* Red */
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.services {
+    padding: 40px 10%;
+    text-align: center;
+    background-color: #003366; /* Blue */
+    color: white;
+}
+
+.services h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.service-card {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.contact {
+    padding: 40px 10%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 1em;
+}
